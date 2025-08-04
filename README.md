@@ -14,10 +14,10 @@ filters used - 'ip.addr == 192.168.1.X','tcp'<br>
 4.**Analysed Open Ports and Services**
 Researched which common service run through the discovered ports and evaluated if any open ports could pose a security threat
 
-## FIles Include
--'scan.txt'-Raw Nmap scan results<br>
--'scan-analyse.md'-(optional)-Notes on identified hosts and open ports<br>
--'packet-Captured.pcap'-Wireshark capture file<br>
+## Files Include
+-scan.txt-Raw Nmap scan results<br>
+-scan-analyse.md-Notes on identified hosts and open ports<br>
+-packet-Captured.pcapng-Wireshark capture file<br>
 
 ## Disclaimer
 This scan was conducted on a **local/private network** that i have permission to scan.<br>
