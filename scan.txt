@@ -1,0 +1,457 @@
+# Nmap 7.95 scan initiated Mon Aug  4 10:15:56 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan1.txt 192.168.1.0/24
+Warning: 192.168.1.4 giving up on port because retransmission cap hit (10).
+Nmap scan report for 192.168.1.0
+Host is up (0.0043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+1334/tcp filtered writesrv
+5802/tcp filtered vnc-http-2
+5925/tcp filtered unknown
+8042/tcp filtered fs-agent
+
+Nmap scan report for 192.168.1.1
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.1 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0014s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+683/tcp   filtered corba-iiop
+1050/tcp  filtered java-or-OTGfileshare
+1533/tcp  filtered virtual-places
+26214/tcp filtered unknown
+49153/tcp filtered unknown
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0016s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+992/tcp  filtered telnets
+5962/tcp filtered unknown
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0012s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+8383/tcp filtered m2mservices
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+8600/tcp filtered asterix
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+416/tcp  filtered silverplatter
+514/tcp  filtered shell
+1334/tcp filtered writesrv
+
+Nmap scan report for 192.168.1.7
+Host is up (0.0014s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+10629/tcp filtered unknown
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0012s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0014s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE    SERVICE
+259/tcp filtered esro-gen
+514/tcp filtered shell
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0016s latency).
+All 1000 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0013s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+1031/tcp  filtered iad2
+1236/tcp  filtered bvcontrol
+2041/tcp  filtered interbase
+3546/tcp  filtered unknown
+5822/tcp  filtered unknown
+6547/tcp  filtered powerchuteplus
+25735/tcp filtered unknown
+
+Nmap scan report for 192.168.1.12
+Host is up (0.0013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE    SERVICE
+212/tcp   filtered anet
+1687/tcp  filtered nsjtp-ctrl
+14238/tcp filtered unknown
+
+Nmap scan report for 192.168.1.13
+Host is up (0.0014s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+1059/tcp filtered nimreg
+3052/tcp filtered powerchute
+
+Nmap scan report for 192.168.1.14
+Host is up (0.0013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+9002/tcp filtered dynamid
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+1102/tcp filtered adobeserver-1
+2909/tcp filtered funk-dialout
+
+Nmap scan report for 192.168.1.16
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+8021/tcp filtered ftp-proxy
+
+Nmap scan report for 192.168.1.17
+Host is up (0.0028s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+3011/tcp  filtered trusted-web
+5950/tcp  filtered unknown
+10025/tcp filtered unknown
+
+Nmap scan report for 192.168.1.18
+Host is up (0.0014s latency).
+All 1000 scanned ports on 192.168.1.18 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.19
+Host is up (0.0013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+1094/tcp filtered rootd
+1175/tcp filtered dossier
+3826/tcp filtered wormux
+5678/tcp filtered rrac
+8600/tcp filtered asterix
+
+Nmap scan report for 192.168.1.20
+Host is up (0.0014s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE    SERVICE
+2119/tcp  filtered gsigatekeeper
+9594/tcp  filtered msgsys
+40193/tcp filtered unknown
+
+Nmap scan report for 192.168.1.21
+Host is up (0.0015s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+1117/tcp filtered ardus-mtrns
+4443/tcp filtered pharos
+7800/tcp filtered asr
+
+Nmap scan report for 192.168.1.22
+Host is up (0.0016s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE    SERVICE
+1805/tcp  filtered enl-name
+1971/tcp  filtered netop-school
+49163/tcp filtered unknown
+
+Nmap scan report for 192.168.1.23
+Host is up (0.00060s latency).
+All 1000 scanned ports on 192.168.1.23 are in ignored states.
+Not shown: 935 closed tcp ports (reset), 65 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.24
+Host is up (0.0017s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+1010/tcp  filtered surf
+9040/tcp  filtered tor-trans
+10215/tcp filtered unknown
+
+Nmap scan report for 192.168.1.25
+Host is up (0.0014s latency).
+All 1000 scanned ports on 192.168.1.25 are in ignored states.
+Not shown: 823 closed tcp ports (reset), 177 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.26
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.26 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.27
+Host is up (0.0014s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+1217/tcp filtered hpss-ndapi
+2038/tcp filtered objectmanager
+2301/tcp filtered compaqdiag
+5666/tcp filtered nrpe
+6792/tcp filtered unknown
+
+Nmap scan report for 192.168.1.28
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.28 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.29
+Host is up (0.0012s latency).
+Not shown: 986 closed tcp ports (reset)
+PORT      STATE    SERVICE
+179/tcp   filtered bgp
+631/tcp   filtered ipp
+1033/tcp  filtered netinfo
+1043/tcp  filtered boinc
+1352/tcp  filtered lotusnotes
+2002/tcp  filtered globe
+2702/tcp  filtered sms-xfer
+5810/tcp  filtered unknown
+6009/tcp  filtered X11:9
+6123/tcp  filtered backup-express
+8181/tcp  filtered intermapper
+8222/tcp  filtered unknown
+8383/tcp  filtered m2mservices
+32773/tcp filtered sometimes-rpc9
+
+Nmap scan report for 192.168.1.30
+Host is up (0.0015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+1119/tcp  filtered bnetgame
+31038/tcp filtered unknown
+
+Nmap scan report for 192.168.1.31
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.31 are in ignored states.
+Not shown: 812 closed tcp ports (reset), 188 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.32
+Host is up (0.0014s latency).
+All 1000 scanned ports on 192.168.1.32 are in ignored states.
+Not shown: 874 closed tcp ports (reset), 126 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.33
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+146/tcp filtered iso-tp0
+
+Nmap scan report for 192.168.1.34
+Host is up (0.00081s latency).
+All 1000 scanned ports on 192.168.1.34 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.35
+Host is up (0.0013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+1110/tcp filtered nfsd-status
+3006/tcp filtered deslogind
+5950/tcp filtered unknown
+
+Nmap scan report for 192.168.1.36
+Host is up (0.0013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+56737/tcp filtered unknown
+
+Nmap scan report for 192.168.1.37
+Host is up (0.0012s latency).
+All 1000 scanned ports on 192.168.1.37 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.38
+Host is up (0.0019s latency).
+All 1000 scanned ports on 192.168.1.38 are in ignored states.
+Not shown: 956 closed tcp ports (reset), 44 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.39
+Host is up (0.0013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+1111/tcp filtered lmsocialserver
+6004/tcp filtered X11:4
+
+Nmap scan report for 192.168.1.40
+Host is up (0.0014s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+1065/tcp  filtered syscomlan
+14000/tcp filtered scotty-ft
+
+Nmap scan report for 192.168.1.41
+Host is up (0.0011s latency).
+All 1000 scanned ports on 192.168.1.41 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.42
+Host is up (0.0012s latency).
+All 1000 scanned ports on 192.168.1.42 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.43
+Host is up (0.0013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE    SERVICE
+514/tcp   filtered shell
+1114/tcp  filtered mini-sql
+10001/tcp filtered scp-config
+16016/tcp filtered unknown
+
+Nmap scan report for 192.168.1.44
+Host is up (0.0015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+548/tcp filtered afp
+
+Nmap scan report for 192.168.1.45
+Host is up (0.0013s latency).
+Not shown: 982 closed tcp ports (reset)
+PORT      STATE    SERVICE
+179/tcp   filtered bgp
+631/tcp   filtered ipp
+705/tcp   filtered agentx
+1033/tcp  filtered netinfo
+1043/tcp  filtered boinc
+1234/tcp  filtered hotline
+1352/tcp  filtered lotusnotes
+2002/tcp  filtered globe
+4045/tcp  filtered lockd
+5810/tcp  filtered unknown
+6009/tcp  filtered X11:9
+6123/tcp  filtered backup-express
+8088/tcp  filtered radan-http
+8090/tcp  filtered opsmessaging
+8181/tcp  filtered intermapper
+8383/tcp  filtered m2mservices
+9594/tcp  filtered msgsys
+32773/tcp filtered sometimes-rpc9
+
+Nmap scan report for 192.168.1.46
+Host is up (0.0030s latency).
+All 1000 scanned ports on 192.168.1.46 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.47
+Host is up (0.0037s latency).
+All 1000 scanned ports on 192.168.1.47 are in ignored states.
+Not shown: 949 closed tcp ports (reset), 51 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.48
+Host is up (0.0037s latency).
+All 1000 scanned ports on 192.168.1.48 are in ignored states.
+Not shown: 973 closed tcp ports (reset), 27 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.49
+Host is up (0.0012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+3986/tcp filtered mapper-ws_ethd
+4900/tcp filtered hfcs
+
+Nmap scan report for 192.168.1.50
+Host is up (0.0014s latency).
+All 1000 scanned ports on 192.168.1.50 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.51
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.51 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.52
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+
+Nmap scan report for 192.168.1.53
+Host is up (0.0020s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+8007/tcp filtered ajp12
+
+Nmap scan report for 192.168.1.54
+Host is up (0.0011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE    SERVICE
+514/tcp  filtered shell
+3370/tcp filtered satvid-datalnk
+
+Nmap scan report for 192.168.1.55
+Host is up (0.0013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5440/tcp filtered unknown
+
+Nmap scan report for 192.168.1.56
+Host is up (0.0013s latency).
+All 1000 scanned ports on 192.168.1.56 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.57
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+
+Nmap scan report for 192.168.1.58
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+
+Nmap scan report for 192.168.1.59
+Host is up (0.0014s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+464/tcp filtered kpasswd5
+
+Nmap scan report for 192.168.1.60
+Host is up (0.0010s latency).
+All 1000 scanned ports on 192.168.1.60 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.61
+Host is up (0.0014s latency).
+All 1000 scanned ports on 192.168.1.61 are in ignored states.
+Not shown: 934 closed tcp ports (reset), 66 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.1.62
+Host is up (0.0012s latency).
+All 1000 scanned ports on 192.168.1.62 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.63
+Host is up (0.0015s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE    SERVICE
+514/tcp filtered shell
+
